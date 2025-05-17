@@ -71,14 +71,13 @@ const About: React.FC = () => {
             variants={itemVariants}
             className="text-lg text-gray-300 mb-8 leading-relaxed"
           >
-            I’m 21 years fourth-year Software Engineering student from Argentina, passionate about leveraging technology to create positive change. My entrepreneurial journey began with co-hosting the Infinity Explorers podcast, where my co-host and I interviewed experts in technology and science, sharing cutting-edge ideas with a global audience. Later, I expanded this journey by launching the Pinta Libre franchise in Paraná, helping local businesses attract more customers through innovative solutions.
-          </motion.p>
+            I’m a 21-year-old fourth-year Software Engineering student from Argentina, passionate about leveraging technology to create positive change. I’m also deeply curious and driven by a love for learning and science, always eager to explore new ideas and expand my knowledge. My entrepreneurial journey began with co-hosting the Infinity Explorers podcast, where my co-host and I interviewed experts in technology and science, sharing cutting-edge ideas with a global audience. Later, I expanded this journey by launching the Pinta Libre franchise in Paraná, helping local businesses attract more customers through innovative solutions.
 
           <motion.p
             variants={itemVariants}
             className="text-lg text-gray-300 mb-8 leading-relaxed"
           >
-            Currently, my main interest in technology lies in Web3 and blockchain systems, where I’m working as a research assistant on a blockchain interoperability project. While I use fullstack development skills to support my work, I focus on exploring decentralized technologies that could reshape the future.
+            Currently, my main interest in technology lies in Web3 and blockchain systems. I’m working as a research assistant on a university-led blockchain interoperability project. While I use full-stack development skills to support my work, I focus on exploring decentralized technologies that could reshape the future.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
