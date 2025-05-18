@@ -8,6 +8,7 @@ interface Certification {
   issuer: string;
   year: string;
   icon: React.ReactNode;
+  description?: string;
 }
 
 const Certifications: React.FC = () => {
@@ -19,15 +20,17 @@ const Certifications: React.FC = () => {
   const certifications: Certification[] = [
     {
       title: 'B2 First Certificate',
-      issuer: 'Cambridge English',
-      year: '2024',
+      issuer: 'Cambridge',
+      year: '2021',
       icon: <Award className="w-6 h-6" />,
+      description: 'Upper-intermediate English proficiency, including reading, writing, listening, and speaking skills.',
     },
     {
       title: 'The Web Developer Bootcamp 2025',
       issuer: 'Udemy',
       year: '2025',
       icon: <Award className="w-6 h-6" />,
+      description: 'Covered MongoDB, Node.js, Express, HTML, CSS, JavaScript, and full-stack web application development.',
     },
   ];
 
@@ -88,6 +91,9 @@ const Certifications: React.FC = () => {
                     </p>
                   </div>
                 </div>
+                {cert.description && (
+                  <p className="text-gray-300 text-sm mt-2">{cert.description}</p>
+                )}
               </motion.div>
             ))}
           </div>
@@ -95,6 +101,6 @@ const Certifications: React.FC = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Certifications;

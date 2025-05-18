@@ -71,7 +71,7 @@ const About: React.FC = () => {
             variants={itemVariants}
             className="text-lg text-gray-300 mb-8 leading-relaxed"
           >
-            I’m a 21-year-old fourth-year Software Engineering student from Argentina, passionate about leveraging technology to create positive change. I’m also deeply curious and driven by a love for learning and science, always eager to explore new ideas and expand my knowledge. My entrepreneurial journey began with co-hosting the Infinity Explorers podcast, where my co-host and I interviewed experts in technology and science, sharing cutting-edge ideas with a global audience. Later, I expanded this journey by launching the Pinta Libre franchise in Paraná, helping local businesses attract more customers through innovative solutions.
+            I’m a 21-year-old third-year Software Engineering student at UADE University in Argentina, passionate about leveraging technology to create positive change. I’m also deeply curious and driven by a love for learning and science, always eager to explore new ideas and expand my knowledge. My entrepreneurial journey began with co-hosting the Infinity Explorers podcast, where my co-host and I interviewed experts in technology and science, sharing cutting-edge ideas with a global audience. Later, I expanded this journey by launching the Pinta Libre franchise in Paraná, helping local businesses attract more customers through innovative solutions
           </motion.p>
           <motion.p
             variants={itemVariants}
