@@ -26,6 +26,12 @@ const Projects: React.FC = () => {
         'A comprehensive camping web application that allows users to discover, review, and share camping experiences. Features include user authentication, image uploads, and interactive maps.',
       technologies: ['MongoDB', 'Node.js', 'Express', 'Javascript', 'Cloudinary', 'MapBox', 'JWT', 'Bootstrap'],
       liveUrl: 'https://yelp-camp-98q3.onrender.com/',
+      githubUrls: [
+        {
+          label: 'Repo',
+          url: 'https://github.com/AdrielPasik/yelp-camp',
+        },
+      ],
       image: 'https://images.pexels.com/photos/2582818/pexels-photo-2582818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
     {

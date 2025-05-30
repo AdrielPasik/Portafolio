@@ -9,6 +9,8 @@ interface Certification {
   year: string;
   icon: React.ReactNode;
   description?: string;
+  credentialId?: string; // Nuevo campo
+  credentialUrl?: string; // Nuevo campo
 }
 
 const Certifications: React.FC = () => {
@@ -31,6 +33,8 @@ const Certifications: React.FC = () => {
       year: '2025',
       icon: <Award className="w-6 h-6" />,
       description: 'Covered MongoDB, Node.js, Express, HTML, CSS, JavaScript, and full-stack web application development.',
+      credentialId: 'UC-93510b43-47fe-49ab-8fb7-7c20fe48d254',
+      credentialUrl: 'https://www.udemy.com/certificate/UC-93510b43-47fe-49ab-8fb7-7c20fe48d254/',
     },
   ];
 
@@ -93,6 +97,21 @@ const Certifications: React.FC = () => {
                 </div>
                 {cert.description && (
                   <p className="text-gray-300 text-sm mt-2">{cert.description}</p>
+                )}
+                {cert.credentialId && cert.credentialUrl && (
+                  <div className="text-gray-400 text-xs mt-2 flex flex-col sm:flex-row sm:items-center gap-1">
+                    <span>
+                      <strong>Credential ID:</strong> {cert.credentialId}
+                    </span>
+                    <a
+                      href={cert.credentialUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-400 underline hover:text-primary-300 ml-0 sm:ml-2"
+                    >
+                      See credential
+                    </a>
+                  </div>
                 )}
               </motion.div>
             ))}
