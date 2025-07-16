@@ -36,6 +36,14 @@ const Certifications: React.FC = () => {
       credentialId: 'UC-93510b43-47fe-49ab-8fb7-7c20fe48d254',
       credentialUrl: 'https://www.udemy.com/certificate/UC-93510b43-47fe-49ab-8fb7-7c20fe48d254/',
     },
+    {
+      title: 'Solidity Smart Contract Development',
+      issuer: 'Cyfrin Updraft',
+      year: '2025',
+      icon: <Award className="w-6 h-6" />,
+      description: 'Learned blockchain developer fundamentals, Solidity smart contract development, custom errors, inheritance, gas optimization, and Ethereum developer workflow.',
+      credentialUrl: 'https://updraft.cyfrin.io/courses/solidity',
+    },
   ];
 
   const containerVariants = {
