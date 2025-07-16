@@ -42,6 +42,7 @@ const Certifications: React.FC = () => {
       year: '2025',
       icon: <Award className="w-6 h-6" />,
       description: 'Learned blockchain developer fundamentals, Solidity smart contract development, custom errors, inheritance, gas optimization, and Ethereum developer workflow.',
+      credentialId: 'N/A', // Puedes poner 'N/A' si no tienes un ID oficial
       credentialUrl: 'https://updraft.cyfrin.io/courses/solidity',
     },
   ];
