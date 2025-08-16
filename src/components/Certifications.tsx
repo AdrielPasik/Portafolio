@@ -42,8 +42,17 @@ const Certifications: React.FC = () => {
       year: '2025',
       icon: <Award className="w-6 h-6" />,
       description: 'Learned blockchain developer fundamentals, Solidity smart contract development, custom errors, inheritance, gas optimization, and Ethereum developer workflow.',
-      credentialId: 'N/A', // Puedes poner 'N/A' si no tienes un ID oficial
-      credentialUrl: 'https://updraft.cyfrin.io/courses/solidity',
+      credentialId: 'QYT658HEN125',
+      credentialUrl: 'https://profiles.cyfrin.io/u/adrielpasik/achievements/solidity',
+    },
+    {
+      title: 'Foundry Fundamentals',
+      issuer: 'Cyfrin Updraft',
+      year: '2025',
+      icon: <Award className="w-6 h-6" />,
+      description: 'Learned advanced Solidity development with Foundry, including Forge and Anvil for testing and deployment, smart contract verification, and Chainlink oracle integration. Gained experience creating and testing local blockchain networks, writing unit/integration tests, and verifying contracts on Etherscan. Built a complete Smart Contract Lottery project with Foundry, available on GitHub.',
+      credentialId: '8EDT6MCMWS7Y',
+      credentialUrl: 'https://profiles.cyfrin.io/u/adrielpasik/achievements/foundry',
     },
   ];
 
