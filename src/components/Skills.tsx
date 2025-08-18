@@ -26,47 +26,48 @@ const Skills: React.FC = () => {
 
   const skillCategories: SkillCategory[] = [
     {
+      title: 'Core Development',
+      icon: <Server className="w-6 h-6" />,
+      skills: [
+        'Backend: Node.js, Spring Boot',
+        'Databases: SQL (MySQL, PostgreSQL), NoSQL (MongoDB, Redis, Neo4j, Cassandra)',
+        'Languages: JavaScript, Java, Python',
+      ],
+    },
+    {
       title: 'Frontend',
       icon: <Code2 className="w-6 h-6" />,
-      skills: ['React.js', 'HTML', 'CSS'],
-    },
-    {
-      title: 'Backend',
-      icon: <Server className="w-6 h-6" />,
-      skills: ['Node.js', 'Spring Boot'],
-    },
-    {
-      title: 'Databases',
-      icon: <Database className="w-6 h-6" />,
       skills: [
-        'SQL (Relational Databases)',
-        'NoSQL Databases: MongoDB, Redis, Neo4j, Cassandra'
+        'React.js, HTML, CSS',
+        'React Native (in progress)',
       ],
     },
     {
       title: 'Blockchain',
       icon: <Blocks className="w-6 h-6" />,
-      skills: ['Solidity', 'Smart Contract Development'],
+      skills: [
+        'Solidity & Smart Contract Development',
+        'Foundry, Web3 & dApps fundamentals',
+      ],
     },
     {
-      title: 'Languages',
-      icon: <Code2 className="w-6 h-6" />,
-      skills: ['JavaScript', 'Java', 'Python'],
-    },
-    {
-      title: 'Communication',
-      icon: <MessagesSquare className="w-6 h-6" />,
-      skills: ['Technical Writing', 'Presentations', 'Client Relations'],
-    },
-    {
-      title: 'Problem Solving',
-      icon: <Lightbulb className="w-6 h-6" />,
-      skills: ['Algorithms', 'System Design', 'Debugging'],
-    },
-    {
-      title: 'Teamwork',
+      title: 'Engineering Foundations',
       icon: <Brain className="w-6 h-6" />,
-      skills: ['Collaboration', 'Code Reviews', 'Agile Methodologies'],
+      skills: [
+        'Algorithms & Data Structures',
+        'System Design & Debugging',
+        'Agile Methodologies & Code Reviews',
+      ],
+    },
+    {
+      title: 'Soft Skills',
+      icon: <Users className="w-6 h-6" />,
+      skills: [
+        'Problem Solving & Critical Thinking',
+        'Teamwork & Collaboration',
+        'Communication & Technical Writing',
+        'Initiative & Ownership',
+      ],
     },
   ];
 
@@ -98,7 +99,7 @@ const Skills: React.FC = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold mb-12 text-center text-white"
         >
-          Skills
+          🚀 Skills
         </motion.h2>
 
         <motion.div

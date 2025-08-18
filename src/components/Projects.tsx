@@ -58,6 +58,19 @@ const Projects: React.FC = () => {
       technologies: ['Python', 'Data Structures', 'Algorithms', 'Problem Solving'],
       image: 'https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
+    {
+      title: 'Foundry Smart Contract Lottery',
+      description:
+        'A decentralized, provably fair lottery smart contract system built with Solidity and Foundry. Integrates Chainlink VRF for verifiable randomness and Chainlink Automation for automated winner selection. Developed as part of the Cyfrin Updrafts "Foundry Fundamentals" course.',
+      technologies: ['Solidity', 'Foundry', 'Chainlink VRF', 'Chainlink Automation', 'Ethereum'],
+      githubUrls: [
+        {
+          label: 'Repo',
+          url: 'https://github.com/AdrielPasik/foundry-smart-contract-lottery',
+        },
+      ],
+      image: 'https://images.pexels.com/photos/3157888/pexels-photo-3157888.jpeg?auto=compress&fit=crop&w=800&q=80', // Puedes cambiar la imagen si prefieres otra
+    },
   ];
 
 

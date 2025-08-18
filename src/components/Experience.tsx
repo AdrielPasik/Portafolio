@@ -45,6 +45,19 @@ const Experience: React.FC = () => {
       period: 'Sep. 2019 – Feb. 2022',
       description: 'Led and coordinated groups of children and teenagers in educational and recreational activities. Developed skills in team management, collaborative learning, conflict resolution, and event planning.',
     },
+    {
+      title: 'Research Assistant – Blockchain Interoperability Project',
+      company: 'University Research Team',
+      location: 'Buenos Aires',
+      period: 'Mar. 2025 – Present',
+      description:
+        'Contributed to a university research project focused on blockchain interoperability. Supported protocol analysis, technical documentation, and proof-of-concept implementations. Deepened knowledge in decentralized technologies, smart contracts, and cross-chain communication.',
+      achievements: [
+        'Assisted in protocol analysis and technical documentation',
+        'Collaborated on proof-of-concept blockchain solutions',
+        'Expanded expertise in cross-chain communication systems',
+      ],
+    },
   ];
 
   const containerVariants = {

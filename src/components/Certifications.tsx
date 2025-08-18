@@ -9,8 +9,9 @@ interface Certification {
   year: string;
   icon: React.ReactNode;
   description?: string;
-  credentialId?: string; // Nuevo campo
-  credentialUrl?: string; // Nuevo campo
+  credentialId?: string;
+  credentialUrl?: string;
+  hours?: number; // Nuevo campo
 }
 
 const Certifications: React.FC = () => {
@@ -26,6 +27,7 @@ const Certifications: React.FC = () => {
       year: '2021',
       icon: <Award className="w-6 h-6" />,
       description: 'Upper-intermediate English proficiency, including reading, writing, listening, and speaking skills.',
+      // hours: 120, // Ejemplo si quieres agregar horas
     },
     {
       title: 'The Web Developer Bootcamp 2025',
@@ -35,6 +37,7 @@ const Certifications: React.FC = () => {
       description: 'Covered MongoDB, Node.js, Express, HTML, CSS, JavaScript, and full-stack web application development.',
       credentialId: 'UC-93510b43-47fe-49ab-8fb7-7c20fe48d254',
       credentialUrl: 'https://www.udemy.com/certificate/UC-93510b43-47fe-49ab-8fb7-7c20fe48d254/',
+      hours: 63, // Ejemplo
     },
     {
       title: 'Solidity Smart Contract Development',
@@ -44,6 +47,7 @@ const Certifications: React.FC = () => {
       description: 'Learned blockchain developer fundamentals, Solidity smart contract development, custom errors, inheritance, gas optimization, and Ethereum developer workflow.',
       credentialId: 'QYT658HEN125',
       credentialUrl: 'https://profiles.cyfrin.io/u/adrielpasik/achievements/solidity',
+      hours: 5,
     },
     {
       title: 'Foundry Fundamentals',
@@ -53,6 +57,7 @@ const Certifications: React.FC = () => {
       description: 'Learned advanced Solidity development with Foundry, including Forge and Anvil for testing and deployment, smart contract verification, and Chainlink oracle integration. Gained experience creating and testing local blockchain networks, writing unit/integration tests, and verifying contracts on Etherscan. Built a complete Smart Contract Lottery project with Foundry, available on GitHub.',
       credentialId: '8EDT6MCMWS7Y',
       credentialUrl: 'https://profiles.cyfrin.io/u/adrielpasik/achievements/foundry',
+      hours: 10,
     },
   ];
 
@@ -130,6 +135,11 @@ const Certifications: React.FC = () => {
                       See credential
                     </a>
                   </div>
+                )}
+                {cert.hours && (
+                  <p className="text-gray-400 text-xs mt-1">
+                    <strong>Hours:</strong> {cert.hours}
+                  </p>
                 )}
               </motion.div>
             ))}
