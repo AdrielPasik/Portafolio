@@ -69,7 +69,10 @@ const Projects: React.FC = () => {
           url: 'https://github.com/AdrielPasik/foundry-smart-contract-lottery',
         },
       ],
-      image: 'https://images.pexels.com/photos/3157888/pexels-photo-3157888.jpeg?auto=compress&fit=crop&w=800&q=80', // Puedes cambiar la imagen si prefieres otra
+      image: 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Blockchain network image
+      // Alternativas:
+      // 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' (pantalla de código)
+      // 'https://images.pexels.com/photos/5980867/pexels-photo-5980867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' (cadena digital)
     },
   ];
 

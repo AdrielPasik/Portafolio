@@ -37,7 +37,7 @@ const Certifications: React.FC = () => {
       description: 'Covered MongoDB, Node.js, Express, HTML, CSS, JavaScript, and full-stack web application development.',
       credentialId: 'UC-93510b43-47fe-49ab-8fb7-7c20fe48d254',
       credentialUrl: 'https://www.udemy.com/certificate/UC-93510b43-47fe-49ab-8fb7-7c20fe48d254/',
-      hours: 63, // Ejemplo
+      hours: 74, 
     },
     {
       title: 'Solidity Smart Contract Development',
@@ -58,6 +58,17 @@ const Certifications: React.FC = () => {
       credentialId: '8EDT6MCMWS7Y',
       credentialUrl: 'https://profiles.cyfrin.io/u/adrielpasik/achievements/foundry',
       hours: 10,
+    },
+    {
+      title: 'Chainlink Fundamentals',
+      issuer: 'Cyfrin Updraft',
+      year: '2025',
+      icon: <Award className="w-6 h-6" />,
+      description:
+        'Comprehensive introduction to Chainlink technology and services: oracles, data feeds, Proof of Reserve, CCIP, Chainlink Functions, VRF, and automation. Covered fundamentals for building and interacting with the Chainlink ecosystem. Included hands-on practice developing and testing smart contracts in Remix for each concept.',
+      credentialId: 'JV889VHMM1HO',
+      credentialUrl: 'https://profiles.cyfrin.io/u/adrielpasik/achievements/chainlink-fundamentals',
+      hours: 6,
     },
   ];
 

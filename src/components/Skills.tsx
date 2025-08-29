@@ -38,8 +38,9 @@ const Skills: React.FC = () => {
       title: 'Frontend',
       icon: <Code2 className="w-6 h-6" />,
       skills: [
-        'React.js, HTML, CSS',
-        'React Native (in progress)',
+        'React.js (with UI libraries), HTML, CSS',
+        'Android Studio with Java (learning)',
+        'Kotlin Multiplatform (learning)',
       ],
     },
     {
