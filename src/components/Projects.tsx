@@ -74,6 +74,33 @@ const Projects: React.FC = () => {
       // 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' (pantalla de código)
       // 'https://images.pexels.com/photos/5980867/pexels-photo-5980867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' (cadena digital)
     },
+    {
+      title: 'Expense OCR & Smart Receipt Parser',
+      description:
+        'Web app that digitizes receipts using a multi-pass OCR pipeline (Tesseract + OpenCV) and domain-specific heuristics to extract structured financial data. Backend (FastAPI) exposes a production-ready endpoint returning diagnostic JSON; frontend (Next.js + TS) provides an uploader UI, per-ticket cards and a finance summary dashboard.',
+      technologies: [
+        'Next.js',
+        'React',
+        'TypeScript',
+        'FastAPI',
+        'Python',
+        'Tesseract / pytesseract',
+        'OpenCV (opencv-python)',
+        'NumPy',
+        'Uvicorn',
+      ],
+      githubUrls: [
+        {
+          label: 'Frontend Repo',
+          url: 'https://github.com/AdrielPasik/clasificador_gastos_front',
+        },
+        {
+          label: 'Backend Repo',
+          url: 'https://github.com/AdrielPasik/clasificador_gastos',
+        },
+      ],
+      image: 'https://images.pexels.com/photos/6208225/pexels-photo-6208225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
   ];
 
 
