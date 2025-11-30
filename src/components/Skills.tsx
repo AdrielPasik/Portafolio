@@ -39,8 +39,9 @@ const Skills: React.FC = () => {
       icon: <Code2 className="w-6 h-6" />,
       skills: [
         'React.js (with UI libraries), HTML, CSS',
-        'Android Studio with Java (learning)',
-        'Kotlin Multiplatform (learning)',
+        'React Native with Expo',
+        'TypeScript',
+        
       ],
     },
     {
@@ -49,6 +50,7 @@ const Skills: React.FC = () => {
       skills: [
         'Solidity & Smart Contract Development',
         'Foundry, Web3 & dApps fundamentals',
+        "Ethereum & EVM-compatible chains",
       ],
     },
     {
@@ -56,8 +58,10 @@ const Skills: React.FC = () => {
       icon: <Brain className="w-6 h-6" />,
       skills: [
         'Algorithms & Data Structures',
-        'System Design & Debugging',
+        'System Design & Architecture',
         'Agile Methodologies & Code Reviews',
+        'Testing & Continuous Integration',
+
       ],
     },
     {

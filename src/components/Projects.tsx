@@ -21,6 +21,46 @@ const Projects: React.FC = () => {
 
   const projects: Project[] = [
     {
+      title: 'Expense OCR & Smart Receipt Parser',
+      description:
+        'Web app that digitizes receipts using a multi-pass OCR pipeline (Tesseract + OpenCV) and domain-specific heuristics to extract structured financial data. Backend (FastAPI) exposes a production-ready endpoint returning diagnostic JSON; frontend (Next.js + TS) provides an uploader UI, per-ticket cards and a finance summary dashboard.',
+      technologies: [
+        'Next.js',
+        'React',
+        'TypeScript',
+        'FastAPI',
+        'Python',
+        'Tesseract / pytesseract',
+        'OpenCV (opencv-python)',
+        'NumPy',
+        'Uvicorn',
+      ],
+      githubUrls: [
+        {
+          label: 'Frontend Repo',
+          url: 'https://github.com/AdrielPasik/clasificador_gastos_front',
+        },
+        {
+          label: 'Backend Repo',
+          url: 'https://github.com/AdrielPasik/clasificador_gastos',
+        },
+      ],
+      image: 'https://img.freepik.com/fotos-premium/sensor-implantado-ojo-humano-concepto-inteligencia-artificial-ia_34478-140.jpg',
+    },
+    {
+      title: 'Foundry Smart Contract Lottery',
+      description:
+        'A decentralized, provably fair lottery smart contract system built with Solidity and Foundry. Integrates Chainlink VRF for verifiable randomness and Chainlink Automation for automated winner selection. Developed as part of the Cyfrin Updrafts "Foundry Fundamentals" course.',
+      technologies: ['Solidity', 'Foundry', 'Chainlink VRF', 'Chainlink Automation', 'Ethereum'],
+      githubUrls: [
+        {
+          label: 'Repo',
+          url: 'https://github.com/AdrielPasik/foundry-smart-contract-lottery',
+        },
+      ],
+      image: 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    },
+    {
       title: 'YelpCamp',
       description:
         'A comprehensive camping web application that allows users to discover, review, and share camping experiences. Features include user authentication, image uploads, and interactive maps.',
@@ -58,51 +98,7 @@ const Projects: React.FC = () => {
       technologies: ['Python', 'Data Structures', 'Algorithms', 'Problem Solving'],
       image: 'https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
-    {
-      title: 'Foundry Smart Contract Lottery',
-      description:
-        'A decentralized, provably fair lottery smart contract system built with Solidity and Foundry. Integrates Chainlink VRF for verifiable randomness and Chainlink Automation for automated winner selection. Developed as part of the Cyfrin Updrafts "Foundry Fundamentals" course.',
-      technologies: ['Solidity', 'Foundry', 'Chainlink VRF', 'Chainlink Automation', 'Ethereum'],
-      githubUrls: [
-        {
-          label: 'Repo',
-          url: 'https://github.com/AdrielPasik/foundry-smart-contract-lottery',
-        },
-      ],
-      image: 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', // Blockchain network image
-      // Alternativas:
-      // 'https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' (pantalla de código)
-      // 'https://images.pexels.com/photos/5980867/pexels-photo-5980867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' (cadena digital)
-    },
-    {
-      title: 'Expense OCR & Smart Receipt Parser',
-      description:
-        'Web app that digitizes receipts using a multi-pass OCR pipeline (Tesseract + OpenCV) and domain-specific heuristics to extract structured financial data. Backend (FastAPI) exposes a production-ready endpoint returning diagnostic JSON; frontend (Next.js + TS) provides an uploader UI, per-ticket cards and a finance summary dashboard.',
-      technologies: [
-        'Next.js',
-        'React',
-        'TypeScript',
-        'FastAPI',
-        'Python',
-        'Tesseract / pytesseract',
-        'OpenCV (opencv-python)',
-        'NumPy',
-        'Uvicorn',
-      ],
-      githubUrls: [
-        {
-          label: 'Frontend Repo',
-          url: 'https://github.com/AdrielPasik/clasificador_gastos_front',
-        },
-        {
-          label: 'Backend Repo',
-          url: 'https://github.com/AdrielPasik/clasificador_gastos',
-        },
-      ],
-      image: 'https://images.pexels.com/photos/6208225/pexels-photo-6208225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    },
   ];
-
 
   const containerVariants = {
     hidden: { opacity: 0 },
