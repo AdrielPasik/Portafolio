@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
           url: 'https://github.com/AdrielPasik/waylo-temp',
         },
       ],
-      image: '/waylo-logo.jpg',
+      image: 'https://i.pinimg.com/736x/04/f1/af/04f1af17e5a0b919d64b9e6eeb3f86ae.jpg',
     },
     {
       title: 'Expense OCR & Smart Receipt Parser',
