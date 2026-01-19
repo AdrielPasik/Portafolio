@@ -21,6 +21,31 @@ const Projects: React.FC = () => {
 
   const projects: Project[] = [
     {
+      title: 'Waylo - Travel Planning App',
+      description:
+        'Full-stack travel management platform that enables users to plan and organize trips with comprehensive tools. Features include itinerary management, budget tracking, expense logging, destination planning, and interactive maps. Implements secure JWT authentication with refresh tokens, role-based access control, and a responsive dashboard with data visualization.',
+      technologies: [
+        'Next.js 14',
+        'React',
+        'TypeScript',
+        'Express.js',
+        'MongoDB',
+        'Mongoose',
+        'JWT',
+        'Tailwind CSS',
+        'Shadcn/ui',
+        'Axios',
+      ],
+      liveUrl: 'https://waylo-temp.vercel.app/',
+      githubUrls: [
+        {
+          label: 'Repo',
+          url: 'https://github.com/AdrielPasik/waylo-temp',
+        },
+      ],
+      image: '/waylo-logo.jpg',
+    },
+    {
       title: 'Expense OCR & Smart Receipt Parser',
       description:
         'Web app that digitizes receipts using a multi-pass OCR pipeline (Tesseract + OpenCV) and domain-specific heuristics to extract structured financial data. Backend (FastAPI) exposes a production-ready endpoint returning diagnostic JSON; frontend (Next.js + TS) provides an uploader UI, per-ticket cards and a finance summary dashboard.',
